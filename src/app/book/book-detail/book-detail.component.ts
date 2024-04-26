@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Book } from '../book';
+import { BookDetail } from '../book-detail';
 
 @Component({
   selector: 'app-book-detail',
@@ -7,7 +7,7 @@ import { Book } from '../book';
   styleUrls: ['./book-detail.component.css'],
 })
 export class BookDetailComponent implements OnInit {
-  @Input() bookDetail!: Book;
+  @Input() bookDetail!: BookDetail;
 
   constructor() {}
 
